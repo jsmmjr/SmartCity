@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation de notre entreprise</title>
+    <link rel="stylesheet" href="societe.css">
+</head>
+<body> 
+    <br> <br> <br>
+    <div class="titre">
+        <h1>Achetez nos capteurs intelligents</h1></div>
+   
+    <main>
+        <div class="debut">
+       
+            <p> Vous êtes une société souhaitant vous sécuriser au maximum ? Si vous cherchez à renforcer la sécurité de votre entreprise avec des capteurs intelligents de pointe, nous sommes là pour vous aider à faire le bon choix pour vos besoins spécifiques. Vous n'avez qu'à compléter le formulaire afin qu'on puisse vous contactez ! <br>Nos capteurs intelligents sont conçus pour répondre aux besoins les plus exigeants en matière de surveillance et de contrôle. Ils sont équipés de technologies de pointe telles que l'Internet des objets (IoT), l'intelligence artificielle (IA) et la connectivité sans fil pour offrir des performances et une fiabilité exceptionnelles. </p>
+      <br>
+    </div>
+        <hr> <br><br>
+        <form action="envoye.html">
+        <div class="form-container">
+         <div class="form-group"> <br><br>
+           <label for="nom">Nom de l'entreprise</label>
+           <input type="text" id="nom" name="nom" required="">
+         </div>
+         <div class="form-group">
+          <label for="textarea">Adresse</label>
+          <textarea name="adresse" id="adresse" required="" ></textarea>
+        </div>
+         <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required="">
+        </div>
+        <div class="form-group">
+          <label for="telephone">N° de téléphone</label>
+          <input type="text" id="telephone" name="telephone" required="" required pattern="[0-9]+">
+        </div>
+        <div class="form-group">
+        <label for="produits">Produits souhaités</label> 
+                    <select id="options" required="">
+                        <option value="" selected hidden>Selectionnez</option> 
+                        <option value="option1">Capteur de mouvement</option>
+                        <option value="option2">Capteur de lumière</option>
+                        <option value="option3">Capteur de présence</option>
+                        <option value="option4">Produits en particulier</option>
+                      </select><br><br>
+                      <div id="precisez" style="display:none;">
+                        <p>Nous créeons égalements des produits sur mesures pour vos entreprises.</p>
+                        <label for="autreProduit">Précisez :</label>
+                        <input type="text" id="autreProduit" name="autreProduit">
+                      </div></div>
+         <div class="form-group">
+           <label for="textarea">Message (facultatif) </label>
+           <textarea name="textarea" id="textarea" ></textarea>
+         </div>
+         <button class="form-submit-btn" type="submit">Envoyer</button>
+        </form>
+     </div>
+        <br>
+    </main>
+    <footer>
+        <p>&copy; 2024 Smart Open City Data. Tous droits réservés.</p>
+    </footer>
+    <script>
+        document.getElementById("options").addEventListener("change", function() {
+      var optionSelected = this.value;
+      if(optionSelected === "option4") {
+        document.getElementById("precisez").style.display = "block";
+      } else {
+        document.getElementById("precisez").style.display = "none";
+      }
+    });
+    </script>
+</body>
+</html>

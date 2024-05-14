@@ -1,0 +1,243 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  text-align: center;
+  
+}
+
+.titre h1 {
+  font-size: 3rem; 
+  color: #333; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  letter-spacing: 2px; 
+  margin: 0; 
+  position: relative; 
+  color: #709049
+}
+
+.titre h1::before {
+  content: ''; 
+  position: absolute; 
+  bottom: -5px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 50px; 
+  height: 2px; 
+  background-color: #333; 
+  
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.contact-item span {
+  color: #555;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+h3{
+  text-align: center;
+ 
+}
+
+
+h2 {
+    text-align: center;
+    color: #709049;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 260px;
+   
+}
+
+button[type="submit"]:hover {
+    background-color: #fafafa;
+    color: #709049;
+}
+
+.form-container {
+    
+    margin-left: 160px;
+    width: 900px;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(145deg, transparent 35%,#709049, #aeffa5) border-box;
+    border: 2px solid transparent;
+    padding: 50px 24px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #709049;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    
+    height: 96px;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #709049;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #709049;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: white;
+    font-weight: 600;
+    width: 40%;
+    background: #709049;
+    border: 1px solid #144e0d;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+  
+  
+  footer {
+    background-color: #709049;
+   
+    padding: 10px 0;
+  }
+
+  footer p{
+      
+      color: #fff;
+      text-align: center;
+      
+  }
+
+  a {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  a:hover, a:active {
+    text-decoration: none; 
+  }
+  

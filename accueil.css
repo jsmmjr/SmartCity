@@ -1,0 +1,227 @@
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+body {
+
+  font-family: Montserrat, sans-serif;
+  
+
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navigation-item {
+  opacity: .6;
+  letter-spacing: 1px;
+  font-size: 12px;
+  vertical-align: top;
+  color: #222;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.navigation-item:hover {
+  opacity: .9;
+}
+
+.boutton{
+  color: #fdfdfd;
+  text-align: center;
+  background-color: #709049;
+  border-radius: 100px;
+  padding: 20px 32px 20px 32px;
+  text-decoration: none;
+  display: flex;
+}
+
+.boutton:hover {
+  background-color: #436c11;
+  color: #000000;
+}
+
+
+.slogan2 {
+  color: rgba(0, 0, 0, .6);
+  font-family: Merriweather, serif;
+  font-size: 25px;
+  margin-top: -40px;
+}
+
+
+.slogan {
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 80px;
+  line-height: .95;
+}
+
+
+
+
+.centre {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+
+
+.values {
+  display: flex;
+  overflow-x: auto;
+}
+
+
+.value { 
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  width:  300px;
+}
+
+.value:hover{
+  background-color: #e1e7da;
+}
+
+.voir1 {
+  width: 150px; 
+  margin-top: 100px;
+  margin-left: 40px;
+  text-decoration: underline;
+}
+
+.voir1 p:hover{
+  color: #c1cdb2;
+ 
+}
+
+.container1 {
+  width: 80%;
+  padding: 20px;
+  margin-left: 90px;
+
+}
+
+.container1 h2 {
+  text-align: center;
+  color: #5e793c;
+  font-weight: bold;
+}
+
+.lecon h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #5e793c;
+ 
+}
+
+.lecon {
+ 
+  text-align: center;
+}
+
+
+
+.lecon button{
+  border-radius: 10px;
+  border-color: #ffffff;
+  padding: 5px 15px 5px 15px;
+}
+
+.lecon button:hover{
+  background-color: #c8c8c7;
+}
+
+
+  
+.cont.logo img{
+  margin-top: 30px;
+  margin-left: 490px;
+  width: 200px;
+}
+
+.lecon1 h2 {
+  color:#5e793c ;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lecon1{
+  margin-left: 20px;
+  background-color: #c9d7b9;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.lebas{
+  background-color: #709049;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  border-radius: 4px;
+  display: flex;
+  
+  
+}
+
+.texte h2{
+  color: white;
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.texte p{
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: -20px;
+
+}
+
+
+
+.bouttonbas{
+  margin-left: 400px;
+  text-align: end;
+  margin-top: 20px;
+ 
+}
+
+.lebas h3{
+  color: white;
+  
+}
+
+.lebas h3:hover{
+  opacity: .4;
+ 
+}
+
+.lebas a{
+  text-decoration: none;
+}

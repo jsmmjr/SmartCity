@@ -1,0 +1,20 @@
+.texte{
+    margin-top: 190px;
+    color: #709049;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+.retour{
+    text-align: center;
+}
+
+ body{
+    background-color: #f1f3f0;
+ }

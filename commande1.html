@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="commande.css">
+</head>
+<body> 
+  <div class="image">
+  <img src="detec de mouv.jpg" alt="Image du Produit" width="200px">
+  <p>Détecteur de mouvement <br>Prix : 65&euro;</p>
+</div> <br>
+    <div class="form-container">
+        <form action="payer.html">
+        <h2>FORMULAIRE DE COMMANDE</h2>
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" required="">
+        </div>
+        <div class="form-group">
+          <label for="nom">Prénom</label>
+          <input type="text" id="prenom" name="prenom" required="">
+        </div>
+        <div class="form-group">
+          <label for="date_naissance">Date de naissance :</label>
+          <input type="date" id="date_naissance" name="date_naissance">      
+      </div>
+       <div class="form-group">
+         <label for="email">Email</label>
+         <input type="email" id="email" name="email" required="">
+       </div>
+       <div class="form-group">
+        <label for="nom">Adresse</label>
+        <input type="text" id="adresse" name="adresse" required="">
+      </div>
+      <div class="form-group">
+        <label for="ville">Ville</label>
+        <input type="text" id="ville" name="ville" required="">
+      </div>
+      <div class="form-group">
+        <label for="cp">Code Postal</label>
+        <input type="text" id="cp" name="cp" required="">
+      </div>
+      <div class="form-group">
+      <label for="livraison">Livraison</label> 
+                    <select id="options">
+                        <option value="" selected hidden>Selectionnez</option> 
+                        <option value="option1">Chez vous</option>
+                        <option value="option2">Retrait au point relais</option>
+                      </select><br>
+                      <div id="precisez" style="display:none;">
+                        <label for="retrait">Point relais : </label>
+                        <input type="text" id="point" name="retrait">
+                      </div></div>
+      
+       <button class="form-submit-btn" type="submit">Payer</button>
+      </form>
+   </div>
+
+   <script>
+    document.getElementById("options").addEventListener("change", function() {
+  var optionSelected = this.value;
+  if(optionSelected === "option2") {
+    document.getElementById("precisez").style.display = "block";
+  } else {
+    document.getElementById("precisez").style.display = "none";
+  }
+});
+</script>
+</body>
+</html>
