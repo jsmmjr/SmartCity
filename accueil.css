@@ -225,3 +225,19 @@ a {
 .lebas a{
   text-decoration: none;
 }
+
+
+
+@media (max-width: 768px) {
+  /* Styles pour les tablettes */
+  body {
+      background-color: lightgreen;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles pour les téléphones */
+  body {
+      background-color: lightcoral;
+  }
+}
